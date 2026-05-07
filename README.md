@@ -119,7 +119,14 @@ Move an object between Organizational Units.
 [+] From: CN=John Doe,OU=Junior DevOps,DC=lab,DC=local
 [+] To:   OU=Senior DevOps,DC=lab,DC=local
 ```
-
+```text
+[*] Kerberos auth via ticket
+[*] DC: DC.lab.local
+[*] KRB5CCNAME: john.doe.ccache
+[+] Moved user 'John Doe'
+[+] From: CN=John Doe,OU=Junior DevOps,DC=lab,DC=local
+[+] To:   OU=Senior DevOps,DC=lab,DC=local
+```
 ---
 
 ## Notes
